@@ -9,7 +9,12 @@ public class Main {
         double[] b = {18, 26, 34, 82};
         Cramer cramer = new Cramer(matrix,b);
         Gauss gauss = new Gauss(matrix,b);
+        Jacobi jacobi = new Jacobi(matrix,b);
+        GaussSeidel gaussSeidel = new GaussSeidel(matrix,b);
+
         cramer.cramerMethod();
         gauss.gaussMethod();
+        jacobi.jacobiMethod();
+        gaussSeidel.gaussSeidelMethod();
     }
 }

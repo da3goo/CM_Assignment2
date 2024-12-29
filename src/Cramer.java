@@ -30,9 +30,9 @@ public class Cramer {
 
 
     public double[] solve() {
-        double detA = determinant(matrix); // Определитель матрицы коэффициентов
+        double detA = determinant(matrix);
 
-        // Проверка на существование решения (если detA == 0, то решение либо не существует, либо оно не единственное)
+
         if (detA == 0) {
             throw new ArithmeticException("Определитель матрицы равен нулю. Система не имеет единственного решения.");
         }
