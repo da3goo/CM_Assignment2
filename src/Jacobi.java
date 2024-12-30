@@ -47,6 +47,8 @@ public class Jacobi {
         return maxDiff < tol;
     }
 
+
+
     public void jacobiMethod() {
         System.out.println();
         System.out.println("Jacobi solution");

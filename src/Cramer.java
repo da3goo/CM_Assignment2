@@ -34,7 +34,7 @@ public class Cramer {
 
 
         if (detA == 0) {
-            throw new ArithmeticException("Определитель матрицы равен нулю. Система не имеет единственного решения.");
+            throw new ArithmeticException("Determinant is 0");
         }
 
         int n = matrix.length;

@@ -37,7 +37,7 @@ public class GaussSeidel {
                 previousSolution[i] = solution[i];
             }
 
-            // Проверка сходимости после завершения всех вычислений
+
             if (converged) {
                 System.out.println("Converged in " + (iteration + 1) + " iterations.");
                 break;

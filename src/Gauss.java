@@ -34,7 +34,7 @@ public class Gauss {
         int n = augmentedMatrix.length;
 
         for (int i = 0; i < n; i++) {
-            // Пивотинг: находим максимальный элемент для текущего столбца
+
             int maxRow = i;
             for (int k = i + 1; k < n; k++) {
                 if (Math.abs(augmentedMatrix[k][i]) > Math.abs(augmentedMatrix[maxRow][i])) {
